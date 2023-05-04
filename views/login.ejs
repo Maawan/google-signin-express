@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="container">
+        <div class="con">
+            <p>Login your BBBootstrap account. It’s free and only takes a minute.</p>
+            <form action="/login" method="post">
+                <input type="email" name="username" placeholder="    Email here">
+                <input type="password" name="password" id="pass1" placeholder="    Password">
+                <button>Signin Now</button>
+            </form>
+            <p id="or"> ----- Or -----</p>
+            <div class="col s12 m6 offset-m3 center-align">
+                <a class="oauth-container btn darken-4 white black-text" href="/users/google-oauth/" style="text-transform:none">
+                    <div class="left">
+                        <img width="20px" style="margin-top:7px; margin-right:8px" alt="Google sign-in" 
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
+                    </div>
+                    Signin with Google
+                </a>
+            </div>
+            <p id="already">Doesn't have an Account ? <a href="/signup">Signup</a></p>
+        </div>
+    </div>
+    
+</body>
+</html>
